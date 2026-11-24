@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prévia do cardápio do Ristorante Mangiatto Bene, em Curitiba.">
+  <meta name="theme-color" content="#451c22">
+  <title>Cardápio | Ristorante Mangiatto Bene</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cardapio.css">
+</head>
+<body>
+  <div class="topline">CURITIBA, PARANÁ</div>
+  <header class="site-header">
+    <a class="brand" href="index.html#inicio" aria-label="Ristorante Mangiatto Bene - início">
+      <span class="brand-mark">MB</span>
+      <span class="brand-name">Ristorante <strong>Mangiatto Bene</strong></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html#inicio">Início</a>
+      <a href="index.html#historia">Nossa história</a>
+      <a href="index.html#especialidades">Gastronomia</a>
+      <a href="index.html#ambientes">A casa</a>
+      <a href="index.html#contato">Contato</a>
+      <a class="nav-cta" href="cardapio.html">Cardápio <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main class="simple-menu">
+    <section class="simple-menu-heading">
+      <p class="eyebrow">RISTORANTE MANGIATTO BENE</p>
+      <h1>Cardápio</h1>
+      <p>Uma seleção de pratos para conhecer um pouco do que a casa pode oferecer.</p>
+      <div class="menu-photo" role="img" aria-label="Fotografia ilustrativa de comida italiana">
+        <span>Imagem meramente ilustrativa</span>
+      </div>
+      <p class="prototype-note">Esta é uma versão de demonstração. Os pratos, descrições e valores ainda precisam ser confirmados pelo restaurante. A imagem não representa necessariamente um prato servido na casa.</p>
+    </section>
+
+    <section class="simple-menu-list" aria-label="Prévia do cardápio">
+      <div class="simple-category">
+        <h2>Entradas</h2>
+        <article class="simple-dish"><div><h3>Antepastos da casa</h3><p>Uma opção para começar a refeição.</p></div><span>R$ --,--</span></article>
+        <article class="simple-dish"><div><h3>Capeletti in brodo</h3><p>Capeletti servido em caldo quente.</p></div><span>R$ --,--</span></article>
+      </div>
+      <div class="simple-category">
+        <h2>Massas</h2>
+        <article class="simple-dish"><div><h3>Talharim</h3><p>Massa servida com molho à escolha, conforme disponibilidade.</p></div><span>R$ --,--</span></article>
+        <article class="simple-dish"><div><h3>Nhoque artesanal</h3><p>Uma opção clássica da cozinha italiana.</p></div><span>R$ --,--</span></article>
+      </div>
+      <div class="simple-category">
+        <h2>Pratos principais</h2>
+        <article class="simple-dish"><div><h3>Filé à parmegiana</h3><p>Filé empanado, com molho e queijo gratinado.</p></div><span>R$ --,--</span></article>
+        <article class="simple-dish"><div><h3>Filé-mignon ao poivre</h3><p>Filé-mignon servido com molho poivre.</p></div><span>R$ --,--</span></article>
+      </div>
+      <div class="simple-category">
+        <h2>Sobremesas</h2>
+        <article class="simple-dish"><div><h3>Sobremesa da casa</h3><p>Consulte as opções disponíveis.</p></div><span>R$ --,--</span></article>
+      </div>
+      <p class="prototype-note bottom-note">Cardápio provisório para avaliação do projeto. Os itens acima são exemplos e não confirmam a disponibilidade no restaurante. Preços não informados.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="index.html#inicio"><span class="brand-mark">MB</span><span class="brand-name">Ristorante <strong>Mangiatto Bene</strong></span></a>
+    <p>Em Curitiba.</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> Ristorante Mangiatto Bene</span><a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Voltar ao início ↑</a></div>
+  </footer>
+  <a class="whatsapp-float" href="https://wa.me/5541991773535" target="_blank" rel="noopener" aria-label="Fale conosco pelo WhatsApp">✆</a>
+  <script src="script.js"></script>
+</body>
+</html>
